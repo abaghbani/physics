@@ -106,5 +106,12 @@ stem:[f_o]: threshold frequency
 |then: |stem:[f_o = \frac{\phi}{h}]
 |===
 
+image::pics/photoelectric_1.jpg[]
 
+=== video
+in this two videos we can see the basic theory of photoelectric effect and all the math plus some history behind
+
+video::I_7ZfMlIKhk[youtube]
+
+video::iPpJQv1ScKk[youtube]
 
