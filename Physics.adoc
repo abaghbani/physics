@@ -1,0 +1,110 @@
+= Physics
+:revnumber: 1.0
+:version-label: Revision
+:sectnums:
+:toc:
+:stem:
+:hardbreaks-option:
+
+== Revisions History
+[%autowidth, cols="<,>,<"]
+|===
+|Date              | Rev   | Changes
+
+|January 25, 2022  |  1.0  | Initial release
+|===
+
+include::copyright.adoc[]
+
+== Background
+
+this information is to review basic of physics:
+
+- basic knowledge of physics theory
+- mathematics equations
+
+This information will be used to deduce the following end-user information:
+
+- ASK and FSK packets with precise timestamp, possibly with bitrate and demodulation info
+	* packets extracted from bits
+	* bitrate calculated from precise timestamp
+	* ASK amplitude extracted from amplitude samples
+	* FSK deviation extracted from frequency samples
+
+== test math format
+
+stem:[sqrt(4) = 2]
+
+stem:[H_2O]
+
+latexmath:[C = \alpha + \beta Y^{\gamma} + \epsilon]
+
+A matrix can be written as stem:[[[a,b\],[c,d\]\]((n),(k))].
+
+[stem] 
+++++ 
+sqrt(4) = 2
+
+E_[kmax] = h.f
+++++
+
+image::test1.jpg[]
+
+== second test 
+
+=== subtitle
+
+_Note: this is note test._ 
+
+.GeneralPacket
+[%autowidth, cols="<,>"]
+|===
+| Field Name                                 | Count Bits
+
+| Header                                     | 32
+a| Payload
+
+* Length defined by Header.PayloadByteLength | var
+
+a| Padding
+
+* Pad the whole packet to 32-bits alignment
+* Set a constant value of 0xDA               | 0/8/16/24
+
+a| Footer
+
+* Duplicata of Header with all bits inverted | 32
+|===
+
+== Photoelectric
+
+Kinetic energy is not depend on intensity of light but it’s depend on only frequency of light
+
+
+|===
+|stem:[E = h.f]
+
+|===
+- h: Planck constant = *6.62607015e−34 Js* (joule second)
+- f: Frequency of light
+
+stem:[V_s = frac{E_{kmax}}{e}]
+
+- Vs: stopping potential (voltage)
+
+_note: So energy could be in eV (electron volt)_
+
+|===
+|stem:[E_{kmax} = hf - \phi]
+
+|===
+stem:[\phi]: work function or energy needed to liberate an electron
+stem:[f_o]: threshold frequency
+
+[frame=none, grid=none, cols="15,~"]
+|===
+|then: |stem:[f_o = \frac{\phi}{h}]
+|===
+
+
+
