@@ -113,5 +113,36 @@ in this two videos we can see the basic theory of photoelectric effect and all t
 
 video::I_7ZfMlIKhk[youtube]
 
+'''
+
 video::iPpJQv1ScKk[youtube]
 
+'''
+
+== Electromagnetic
+Coulomb's law:
+there is force between each two charge stem:[F = K_e\frac{q_1q_2}{d^2}] (stem:[K_e] is coulomb's constant stem:[8.988\times10^9 Nm^2/C^2])
+then any charge create a field that can effect any other charge in his space so we call this field as _Electric Field_.
+Electric field over a sphere with a charge inside stem:[E = \frac{F}{q_t} = \frac{q}{4\pi\varepsilon_oR^2}  (N/C) (K_e = \frac{1}{4\pi\varepsilon_o})]
+
+Electric flux:
+stem:[\phi_E = \oint\overline{E}.\overline{dA}]
+
+_where E (stem:[N/C] newton/colomb) is Electric field and A (stem:[m^2]) is orthogonal tiny surface so stem:[\phi_E] unit is stem:[{Nm^2}/C]_
+
+Quass's law (over a closed surface):
+stem:[\phi_E = \frac{q_{Total}}{4\pi\varepsilon_oR^2} * 4\piR^2 = \frac{q_{Total}}{\varepsilon_o}]
+
+_where q is total charge inside the closed surface and The constant stem:[\varepsilon_o] is the https://en.wikipedia.org/wiki/Vacuum_permittivity/[*vacuum electric permittivity*]_
+
+Ampere's law:
+stem:[\oint\overline{B}.\overline{dl} = \muI]
+
+Faraday's law:
+changing magnetic flux => EMF (Electromotive Force)
+stem:[\varepsilon_{EMF} = -\frac{d\phi_M}{dt}] where magnetic flux is stem:[\phi_M = \ointB.dA]
+stem:[\varepsilon_{EMF} = \frac{W}{q} = \frac{\ointF.dl}{q} = \ointE.dl]
+
+|===
+|stem:[\oint\overline{E}.\overline{dl} = -\frac{d\phi_M}{dt}]
+|===
